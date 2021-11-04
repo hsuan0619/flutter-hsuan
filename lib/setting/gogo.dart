@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:untitled/background/talk%20background.dart';
-import 'package:untitled/while/while%20teach.dart';
+import 'package:untitled/home.dart';
 
 class gogo extends StatefulWidget {
   @override
@@ -33,7 +33,7 @@ class _gogoState extends State<gogo> {
             Navigator.of(context).push(
               MaterialPageRoute(
                   builder: (context) {
-                    return whileTeach();
+                    return home();
                   }
               ),
             );

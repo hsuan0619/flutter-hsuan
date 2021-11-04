@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:untitled/background/background.dart';
 import 'package:untitled/setting/start.dart';
+import 'package:untitled/home.dart';
 
 void main() {
   runApp(MyApp());

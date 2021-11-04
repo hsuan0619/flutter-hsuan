@@ -33,7 +33,7 @@ class _forPrediction1State extends State<forPrediction1> {
   Widget build(BuildContext context) {
     const player = YoutubePlayerIFrame();
     int timenow = 0;
-    int videoTime = 115;
+    int videoTime = 110;
 
     Timer.periodic(const Duration(seconds: 1), (timer) {
       timenow++;
